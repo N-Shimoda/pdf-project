@@ -3,9 +3,6 @@
 
 import PyPDF2
 import glob2
-import sys
-# sys.path.append('/opt/anaconda3/lib/python3.8/site-packages')
-
 
 def bind_PDF(src_path, dst_basepath):
 
@@ -33,7 +30,10 @@ def bind_PDF(src_path, dst_basepath):
     with open('{}.pdf'.format(dst_basepath), 'wb') as f:
         dst_pdf.write(f)
 
-files = glob2.glob("./input/*")
-for filename in files:
-    # filename = "EXCFG21.pdf"  # Enter the file name HERE.
-    bind_PDF(filename, "output/"+filename[8:-4]+"_sorted")
+
+if __name__ == "__main__":
+    
+  files = glob2.glob("./input/*")
+  for filename in files:
+      # filename = "EXCFG21.pdf"  # Enter the file name HERE.
+      bind_PDF(filename, "output/"+filename[8:-4]+"_sorted")
