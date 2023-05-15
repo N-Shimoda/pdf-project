@@ -4,11 +4,10 @@
 import PyPDF2
 import glob2
 import sys
-sys.path.append('/opt/anaconda3/lib/python3.8/site-packages')
+# sys.path.append('/opt/anaconda3/lib/python3.8/site-packages')
 
 
 def bind_PDF(src_path, dst_basepath):
-    # "src" stands for "SOURCE", "dst" for "DESTINATION"
 
     src_pdf = PyPDF2.PdfFileReader(src_path)
     secondary_pdf = PyPDF2.PdfFileWriter()

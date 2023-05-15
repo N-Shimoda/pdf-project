@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/opt/anaconda3/lib/python3.8/site-packages')
+# sys.path.append('/opt/anaconda3/lib/python3.8/site-packages')
 
 import PyPDF2
 from pathlib import Path
