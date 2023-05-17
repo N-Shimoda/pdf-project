@@ -11,6 +11,6 @@ PDFファイルを冊子印刷するためのプログラム。
 
 ## Files & Directories
 - `booklet.py`: Make booklet version of each pdf files in `input`.
-- `merger.py`
+- `merger.py`: Please ignore this file.
 - `input`
 - `output`
