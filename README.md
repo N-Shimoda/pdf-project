@@ -8,7 +8,7 @@ PDFファイルを冊子印刷するためのプログラム。
 1. Put original pdf files into `input`.
 2. Run `booklet.py` in terminal.
 3. Sorted files will appear in `output`.
-4. Setting should be "両面印刷（短辺綴じ）", "片面2枚をまとめる".
+4. Setting should be "両面印刷（短辺綴じ）", "片面に2枚をまとめる".
 
 ## Files & Directories
 - `booklet.py`: Make booklet version of each pdf files in `input`.
