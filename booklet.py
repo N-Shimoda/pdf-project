@@ -1,4 +1,4 @@
-# This program changes the page order of a given PDF file.
+# This program changes the page order of a given PDF files in `input` directory
 # After operation, the sorted PDF file forms a BOOKLET when printed.
 
 import PyPDF2
